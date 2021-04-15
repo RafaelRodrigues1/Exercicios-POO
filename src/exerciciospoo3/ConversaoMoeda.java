@@ -1,7 +1,7 @@
 package exerciciospoo3;
 
 /**
- * @author RAFAEL
+ * @author RafaelRodrigues1
  */
 public class ConversaoMoeda {
     

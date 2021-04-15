@@ -3,7 +3,7 @@ package exerciciospoo3;
 import java.util.Scanner;
 
 /**
- * @author RAFAEL
+ * @author RafaelRodrigues1
  */
 public class ExerciciosPoo3 {
     

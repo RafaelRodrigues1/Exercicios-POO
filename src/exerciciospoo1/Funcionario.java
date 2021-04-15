@@ -5,11 +5,23 @@ package exerciciospoo1;
  */
 public class Funcionario {
     
-    public String nome;
-    public double salarioB;
-    public double imposto;
+    private String nome;
+    private double salarioB;
+    private double imposto;
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setSalarioB(double salarioB) {
+        this.salarioB = salarioB;
+    }
+
+    public void setImposto(double imposto) {
+        this.imposto = imposto;
+    }   
     
-    public Double salarioL(){
+    private Double salarioL(){
         Double salarioL = this.salarioB - this.imposto;
         return salarioL;
     }

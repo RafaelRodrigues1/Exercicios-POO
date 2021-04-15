@@ -3,14 +3,14 @@ package exerciciospoo2;
 import java.util.Scanner;
 
 /**
- * @author RAFAEL
+ * @author RafaelRodrigues1
  */
 public class Estudante {
     Scanner in = new Scanner(System.in);
-    String nome;
-    Double nota1;
-    Double nota2;
-    Double nota3;
+    private String nome;
+    private Double nota1;
+    private Double nota2;
+    private Double nota3;
     
     private Double media(){
         double media = (this.nota1+this.nota2+this.nota3)/3;
